@@ -1,6 +1,16 @@
-import React from 'react';
+import React, { useState } from 'react';
 
 const Content = () => {
+  const [isModalOpen, setIsModalOpen] = useState(false);
+
+  const openModal = () => {
+    setIsModalOpen(true);
+  };
+
+  const closeModal = () => {
+    setIsModalOpen(false);
+  };
+
   return (
     <section className="py-20 bg-neutral-900">
       <div className="container mx-auto ml-3">
@@ -13,9 +23,9 @@ const Content = () => {
             <p className="text-lg mb-6 text-white">
               Whether you prefer a rich espresso, a creamy latte, or a refreshing cold brew, we have the perfect brew to satisfy your cravings. Explore our menu and embark on a journey of flavor and aroma.
             </p>
-            <a href="https://github.com/sharmaineb" className="text-yellow-300 hover:underline inline-block border-b-2 border-yellow-400 py-1 transition duration-300 ease-in-out">
+            <button onClick={openModal} className="text-yellow-300 bg-transparent border border-yellow-300 rounded-md py-2 px-4 hover:bg-yellow-300 hover:text-black">
               Learn More
-            </a>
+            </button>
           </div>
           <div className="flex justify-center items-center">
             <div className="max-w-md">
@@ -25,6 +35,20 @@ const Content = () => {
           </div>
         </div>
       </div>
+
+      {isModalOpen && (
+        <div className="fixed inset-0 z-50 flex items-center justify-center bg-gray-900 bg-opacity-50">
+          <div className="bg-white p-8 rounded-lg">
+            <h2 className="text-2xl font-bold mb-4">Refer-a-Friend Program</h2>
+            <p className="text-lg mb-4">
+            Join our Refer-a-Friend Program and start earning rewards today! Share the joy of Ka-Pe Kalipay with your friends and family by referring them via email or social media. As a token of our appreciation, we offer enticing rewards such as discount codes for free coffee and pastries. Spread the love of plants and delicious treats while enjoying exclusive benefits for you and your referrals.
+            </p>
+            <button onClick={closeModal} className="text-white bg-blue-400 hover:bg-green-600 rounded-md px-4 py-2">
+              Close
+            </button>
+          </div>
+        </div>
+      )}
     </section>
   );
 };

@@ -1,6 +1,16 @@
-import React from 'react';
+import React, { useState } from 'react';
 
 const PlantContent = () => {
+  const [isModalOpen, setIsModalOpen] = useState(false);
+
+  const openModal = () => {
+    setIsModalOpen(true);
+  };
+
+  const closeModal = () => {
+    setIsModalOpen(false);
+  };
+
   return (
     <section className="bg-neutral-900">
       <div className="container mx-auto">
@@ -19,15 +29,31 @@ const PlantContent = () => {
             <p className="text-lg mb-6 text-white">
               Whether you're a seasoned plant enthusiast or just starting your green journey, we have the perfect plants for you. Explore our collection and discover the wonders of nature right at your doorstep.
             </p>
-            <a href="https://github.com/sharmaineb" className="text-yellow-300 hover:underline inline-block border-b-2 border-yellow-400 py-1 transition duration-300 ease-in-out">
-              Discover Now
-            </a>
+            <button onClick={openModal} className="text-yellow-300 bg-transparent border border-yellow-300 rounded-md py-2 px-4 hover:bg-yellow-300 hover:text-black">
+              Learn More
+            </button>
           </div>
         </div>
       </div>
+      {/* Modal */}
+      {isModalOpen && (
+        <div className="fixed inset-0 z-50 flex items-center justify-center bg-gray-900 bg-opacity-50">
+          <div className="bg-white p-8 rounded-lg">
+            <h2 className="text-2xl font-bold mb-4">Plant Care Tips & Workshops</h2>
+            <p className="text-lg mb-4">
+              <strong>1. Plant Care Guides:</strong> Access our free plant care guides by signing up with your email address. Get valuable tips and tricks for keeping your plants healthy and thriving!
+            </p>
+            <p className="text-lg mb-4">
+              <strong>2. Plant Workshops:</strong> Join our upcoming plant workshops to learn from experts, discover new techniques, and connect with fellow plant enthusiasts. Register now to secure your spot!
+            </p>
+            <button onClick={closeModal} className="text-white bg-blue-400 hover:bg-green-600 rounded-md px-4 py-2">
+              Close
+            </button>
+          </div>
+        </div>
+      )}
     </section>
   );
 };
 
 export default PlantContent;
-
