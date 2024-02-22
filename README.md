@@ -1,70 +1,23 @@
-# Getting Started with Create React App
+## ENT 1.1
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## Ka-Pe Kalipay Landing Page
+Ka-Pe Kalipay is a coffee shop as well as a plant shop.
 
-## Available Scripts
+### Landing Page Instructions
+1. **Choose Your Product**: Select a product for which you want to create the landing page. It could be a new product concept you're interested in exploring or a previous portfolio project you want to showcase.
+   
+2. **Incorporate Persuasion Principles**: Try to incorporate each of Robert Cialdini’s six principles of persuasion (Reciprocity, Commitment, Social Proof, Authority, Liking, Scarcity) into your landing page design and content.
+   
+3. **Build the Landing Page**: Develop the landing page using HTML, CSS, and any necessary JavaScript or frameworks. Ensure that the page effectively communicates the value proposition of your product and includes a call-to-action prompting users to sign up or express interest.
+   
+4. **User Testing**: Test the landing page with at least 5 qualified potential users. Gather feedback on their impressions, what aspects of the page resonated with them, and any suggestions for improvement.
+   
+5. **Iterate Based on Feedback**: Take note of the feedback received during user testing and make necessary iterations to the landing page. Focus on addressing any pain points or areas of confusion identified by users.
+   
+6. **Relaunch and Test Again**: Once you've made the necessary adjustments, relaunch the landing page and conduct further testing to evaluate the effectiveness of the changes.
 
-In the project directory, you can run:
-
-### `npm start`
-
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
-
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
-
-### `npm test`
-
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+## Resources
+- [Robert Cialdini’s Six Principles of Persuasion](https://www.influenceatwork.com/principles-of-persuasion/)
+- [Adobe Stock Images](https://stock.adobe.com/promo/firstmonthfree?gclid=CjwKCAiA29auBhBxEiwAnKcSqhZN51fyC8j0QqLVVpNHe7p5wN7eLZm4qE9kajRScFK5BmBvVU3_jhoC5YYQAvD_BwE&ef_id=CjwKCAiA29auBhBxEiwAnKcSqhZN51fyC8j0QqLVVpNHe7p5wN7eLZm4qE9kajRScFK5BmBvVU3_jhoC5YYQAvD_BwE:G:s&s_kwcid=AL!3085!3!646642325984!e!!g!!adobe%20stock!284119129!16998447409&as_channel=sem&as_campclass=brand&as_campaign=US|CPRO|Stock|PURCH|AS_Brand_Exact|GG||&as_source=google&as_camptype=acquisition&sdid=M3T3SNZC&mv=search&mv2=paidsearch&as_audience=core&gad_source=1)
+- [React](https://reactjs.org/docs/getting-started.html)
+- [TailwindCSS](https://tailwindcss.com/docs)
