@@ -1,10 +1,10 @@
 {
   "files": {
-    "main.css": "/sharmaineb/ent-1.1-landing-page/static/css/main.a8343c3f.css",
-    "main.js": "/sharmaineb/ent-1.1-landing-page/static/js/main.cd65be13.js",
-    "index.html": "/sharmaineb/ent-1.1-landing-page/index.html",
-    "main.a8343c3f.css.map": "/sharmaineb/ent-1.1-landing-page/static/css/main.a8343c3f.css.map",
-    "main.cd65be13.js.map": "/sharmaineb/ent-1.1-landing-page/static/js/main.cd65be13.js.map"
+    "main.css": "/ent-1.1-landing-page/static/css/main.a8343c3f.css",
+    "main.js": "/ent-1.1-landing-page/static/js/main.cd65be13.js",
+    "index.html": "/ent-1.1-landing-page/index.html",
+    "main.a8343c3f.css.map": "/ent-1.1-landing-page/static/css/main.a8343c3f.css.map",
+    "main.cd65be13.js.map": "/ent-1.1-landing-page/static/js/main.cd65be13.js.map"
   },
   "entrypoints": [
     "static/css/main.a8343c3f.css",
